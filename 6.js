@@ -16,9 +16,9 @@ function task6() {
       const randomNum = Math.random();
 
       if (randomNum < 0.5) {
-        res(`Менше ніж 0.5`);
+        res(`Більше ніж 0.5`);
       } else {
-        rej("Більше ніж 0.5");
+        rej("Менше ніж 0.5");
       }
     });
   });
